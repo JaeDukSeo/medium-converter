@@ -1,5 +1,5 @@
 const parse = require('medium-parser')
-const fetch = require('isomorphic-fetch')
+require('isomorphic-fetch')
 
 const cors = 'https://cors-anywhere.herokuapp.com/'
 
