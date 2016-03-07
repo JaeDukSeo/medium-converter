@@ -1,7 +1,13 @@
 /* Global */
+* {
+  box-sizing: border-box;
+}
 html, body {
   height: 100%;
   margin: 0;
+}
+body, body > div {
+  width: 100%;
 }
 body {
   display: flex;
@@ -28,6 +34,18 @@ input[type="text"] {
 button.fetch {
   border-radius: 0 10px 10px 0;
 }
+@media all and (max-width: 500px) {
+  body > div {
+    width: 100%;
+  }
+  input[type="text"] {
+    border-radius: 10px;
+    width: 100%;
+  }
+  button.fetch {
+    visibility: hidden;
+  }
+}
 
 /* Step changing */
 .step {
@@ -45,7 +63,6 @@ body.step2 .step2 {
 body.step3 .step3 {
   display: block;
 }
-
-/* Step 1 */
-
-
+body.step4 .step4 {
+  display: block;
+}
