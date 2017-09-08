@@ -31,6 +31,10 @@ input[type="text"] {
   font-weight: bold;
   border-radius: 10px 0 0 10px;
 }
+input[type="text"]::placeholder {
+  color: #ccc;
+}
+
 button.fetch {
   border-radius: 0 10px 10px 0;
 }
