@@ -1,6 +1,8 @@
 # medium-converter
 
-An client-side [online converter](http://gunar.github.io/medium-converter) for [Medium](http://medium.com) posts.
+A client-side [online converter](http://gunar.github.io/medium-converter) for [Medium](http://medium.com) posts.
+
+Built with [medium-parser](http://github.com/gunar/medium-parser).
 
 ## This project would like to thank
 
